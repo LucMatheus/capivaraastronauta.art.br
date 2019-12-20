@@ -96,10 +96,9 @@ section p{
         color:#FFF;
         font-family: monospace;
     }
-    #cartoes div{
+    .cartoes div{
         transition: all 1s;
         display: none;
-        opacity: 0;
     }
 }
 

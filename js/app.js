@@ -18,8 +18,10 @@ function revelarMenu(){
     }
 }
 function revelarPersonagem(persona){
-    document.querySelector("#cartoes div").style.display = "none"
-    document.querySelector("#cartoes div").style.opacity = "0"
-    document.querySelector(`#cartoes ${persona}`).style.display = "block"
-    document.querySelector(`#cartoes ${persona}`).style.opacity = "1"
+    var JScartoes = document.querySelectorAll(".cartoes div")
+    var i = 0
+    for(i=0;i<JScartoes.length;i++){
+        JScartoes[i].style.display = "hide"
+    }
+    document.querySelector(`.cartoes ${persona}`).style.display = "block"
 }
