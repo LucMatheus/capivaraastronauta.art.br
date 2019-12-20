@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- METADADOS -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Capivara Astronauta</title>
+    <link rel="icon" href="img/Icone_CapivaraAstronauta.png" type="image/png"/>
+    <link rel="shortcut icon" href="img/Icone_CapivaraAstronauta.png" type="image/png"/> 
+    <meta name="generator" content="Visual Studio Code"/>
+    <meta name="rating" content="general"/> 
+    <!-- SEO -->
+
+    <!--IMPORTAÇÕES CSS E OUTROS -->
+    <link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+    <button id="btnMenu" onclick="revelarMenu()">&#9776;</button>
+    <header>
+        <nav>
+            <img src="img/Icone_CapivaraAstronauta.png" id="logoCapivara" alt="Icone da Capivara Astronauta">
+            <li><a href="#">&#127968; HOME</a></li>
+            <li><a href="#">&#128214; Sobre</a></li>
+            <li><a href="#">👩‍🎨 👨‍🎨 Quem somos?</a></li>
+            <li><a href="#">🎨 Amostra</a></li>
+            <li><a href="#">📧 Contato</a></li>
+            <p>&copy; 2019 - Coletivo Capivara Astronauta</p>
+            <li>
+                <nav class="redes-sociais">
+                    <!--<li><a href="#"><img src="img/face.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>-->
+                    <li><a href="https://www.instagram.com/capivaraastronauta/"><img src="img/insta.png" alt="Instagram"></a></li>
+                    <!--<li><a href="#"><img src="img/whatsapp.png" alt="whatsapp"></a></li>-->
+                </nav>
+            </li>
+        </nav>
+    </header>
+    <section id="sobre">
+        <h1>Sobre</h1>
+        <figure id="icone_capivara_mobile_pc">
+            <img src="img/Icone_CapivaraAstronauta.png" alt="Capivara"/>
+        </figure>
+        <p>Coletivo de artistas paraenses que tem a missão de explorar novos mundos, possibilidades e fazeres artísticos.</p>
+    </section>
+    <section id="quemSomos">
+        <h1>Quem somos?</h1>
+        <h2>Escolha o seu artista</h2>
+        <ul id="escolhaDePersonagem">
+            <li><a href="javascript:void(0)" onclick="revelarPersonagem('#char-Fannie')"><img src="img/gifs/pxl_Fannie_Fanye.gif" alt="Fannie Fanye">Fannie Fanye</a></li>
+        </ul>
+        <div id="cartoes">
+            <div id="char-Fannie">
+                <h2><img src="img/gifs/pxl_Fannie_Fanye.gif" alt="Fannie Fanye"> Fannie Fanye</h2>
+                <p>Real name : Stefanie</p>
+                <p>Artista em fase de aprendizagem mas não me subestime :V</p>
+                <p>Gosto muito de pintar principalmente com aquarela.</p>
+                <p>Eu desenho muitas coisas fofas (por pouco tempo°^°) E por último não muito importante sou <strong>@Fanny_Fanye_</strong>.</p>
+                <nav class="redes-sociais">
+                    <li><a href="#"><img src="img/insta.png" alt="Insta"></a></li>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2019 - Capivara Astronauta</p>
+        <p>Sugestão de site : <strong>www.capivarastronauta.art.br</strong></p>
+    </footer>
+    <!-- JAVASCRIPT -->
+    <script src="js/app.js"></script>
+</body>
+</html>
