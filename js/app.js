@@ -17,11 +17,14 @@ function revelarMenu(){
         menu = false
     }
 }
-function revelarPersonagem(persona){
+function esconderPersonagens(){
     var JScartoes = document.querySelectorAll(".cartoes div")
     var i = 0
     for(i=0;i<JScartoes.length;i++){
-        JScartoes[i].style.display = "hide"
+        JScartoes[i].style.display = "none"
     }
-    document.querySelector(`.cartoes ${persona}`).style.display = "block"
+}
+function revelarPersonagem(persona){
+    esconderPersonagens()
+    document.querySelector(`.cartoes div${persona}`).style.display = "block"
 }
