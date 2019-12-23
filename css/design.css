@@ -6,13 +6,13 @@
 
 body{
     background-image: url("../img/fundo.svg");
-    background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
 }
 h1,h2,h3,h4,h5,h6{
     font-family:"Stars",sans-serif;
 }
 section{
+    padding: 3%;
     margin: 5% 0;
     border-radius: 5%;
     background-color:rgba(0,0,0,0.5);
@@ -26,7 +26,16 @@ section p{
     text-decoration: none;
     color:rgb(206, 50, 122);
 }
-
+.cartoes div{
+    transition: all 1s;
+    display: none;
+}
+.redes-sociais{
+    list-style: none;
+}
+.redes-sociais li{
+    display: inline;
+}
 
 /* MOBILE */
 @media only screen and (max-width:800px){
@@ -84,12 +93,6 @@ section p{
         background-color: #000;
         color: #FFF;
     }
-    .redes-sociais{
-        list-style: none;
-    }
-    .redes-sociais li{
-        display: inline;
-    }
     #escolhaDePersonagem{
         list-style: none;
         text-align: left;
@@ -100,9 +103,26 @@ section p{
         color:#FFF;
         font-family: monospace;
     }
-    .cartoes div{
-        transition: all 1s;
-        display: none;
+    #Galeria img{
+        width: 90%;
+    }
+    #Galeria ul{
+        list-style: none;
+    }
+    #Galeria ul li{
+        margin: 3% 0;
+    }
+    #Contato p{
+        padding: 5%;
+        background-color: #f14c5a;
+        font-weight: 800;
+    }
+    #Contato p a{
+        text-decoration: none;
+        color: white;
+    }
+    #Contato form textarea{
+        width: 80%;
     }
 }
 
@@ -110,6 +130,130 @@ section p{
 /* PARA PC */
 @media only screen and (min-width:800px){
     body{
+        font-family: sans-serif;
         margin: 0 20%;
+        color:#FFF;
+    }  
+    /*Cabeçalho*/
+    #btnMenu{
+        display: none;
+    }
+    header{
+        margin-top: 5%;
+    }
+    header nav li{
+        display: inline;
+    }
+
+    header #logoCapivara{
+        float: left;
+        width: 15%;
+        height: 15%;
+    }
+    header nav{
+        text-align: right;
+    }
+
+    header nav li a {
+        padding:1%;
+        border: 2px solid #FFF;
+        font-family: 'Ubuntu','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        color: #FFF;
+    }
+    header nav li a:hover{
+        transition: all 0.5s;
+        background-color: #FFF;
+        color: #000;
+    }
+    header nav p{
+        visibility: hidden;
+    }
+    /*Guia Sobre */
+    #Sobre{
+        text-align: center;
+    }
+    /* Guia - Quem somos ? */
+    #QuemSomos {
+        text-align: center;
+    }
+    #QuemSomos .redes-sociais li img{
+        opacity: 0.75;
+    }
+    #QuemSomos .redes-sociais li img:hover{
+        opacity: 1;
+    }
+    #escolhaDePersonagem li{
+        display: inline-block;
+    }
+    #escolhaDePersonagem li a {
+        text-decoration: none;
+        color: white;
+        font-family: monospace;
+        opacity: 0.6;
+    }
+    #escolhaDePersonagem li a:hover{
+        transition: all 1s;
+        opacity: 1;
+    }
+    .cartoes div p{
+        text-align: justify;
+        text-indent: 5%;
+    }
+    /* Guia - Galeria */
+    #Galeria{
+        text-align: center;
+    }
+    #Galeria ul{
+        list-style: none;
+    }
+    #Galeria ul li{
+        display: inline;
+    }
+    #Galeria ul li img{
+        width: 25%;
+        opacity: 0.5;
+    }
+    #Galeria ul li img:hover{
+        transition: all 1.2s;
+        opacity: 1;
+        zoom: 1.3;
+    }
+    /*Formulário de Contato*/
+    #Contato{
+        text-align: left;
+    }
+    #Contato h1{
+        text-align: center;
+    }
+    #Contato p{
+        padding: 5%;
+        text-align: center;
+        font-family: "Stars";
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    #Contato p:hover{
+        transition: all 1.2s;
+        background-color: #f14c5a;
+        font-weight: 800;
+    }
+    #Contato p a{
+        text-decoration: none;
+        color: white;
+    }
+    #Contato form{
+        position: relative;
+        left: 30%;
+    }
+    #Contato form textarea{
+        width: 330px;
+        height: 140px;
+    }
+    /*Rodapé*/
+    footer{
+        background-color: rgba(0,0,0,0.5);
+        text-align: center;
     }
 }

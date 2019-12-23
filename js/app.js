@@ -28,3 +28,7 @@ function revelarPersonagem(persona){
     esconderPersonagens()
     document.querySelector(`.cartoes div${persona}`).style.display = "block"
 }
+function validarFormulárioDeContato(){
+    alert("Isso é apenas uma demonstração\nAinda não está implementado\nTente o botão de contato direto via DM do Insta :D.\nBy: Lucas.")
+    return false
+}

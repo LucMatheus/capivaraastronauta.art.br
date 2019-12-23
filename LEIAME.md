@@ -1,8 +1,8 @@
 # Site - COLETIVO CAPIVARA ASTRONAUTA
 
-![](/img/eua.png) [Click Here to go for the English Description](README.md)   
+![Bandeira dos EUA](img/eua.png) [Click Here to go for the English Description](README.md)   
 
-![](/img/Icone_CapivaraAstronauta.png)   
+![Icone - Capivara Astronauta](img/Icone_CapivaraAstronauta.png)   
 
 Este site foi apresentado como amostragem para o coletivo de artistas Capivara Astronauta.  
 Ele mistura elementos de temáticas espacial com influência de sites como o Tumblr e a harmônia de trilha sonora de jogos como o Super Paper Mario. ~~Talvez a música _Wonder Space_ do Kirby And the Rainbow Curse tenha dado uma inspiração também~~.    

@@ -1,8 +1,8 @@
 # COLETIVO CAPIVARA ASTRONAUTA Website
 
-![](/img/brasil.png) [Clique Aqui para ler a descrição em português (Brasil)](LEIAME.md)   
+![Bandeira do Brasil](/img/brasil.png) [Clique Aqui para ler a descrição em português (Brasil)](LEIAME.md)   
 
-![](/img/Icone_CapivaraAstronauta.png)   
+![Icone - Capivara Astronauta](/img/Icone_CapivaraAstronauta.png)   
 
 This website was apresented like a preview for "Capivara Astronauta" artist group. It mix elements of Wonder space tematics with influence for another websites like Tumblr and used for inspiration music for other games like Super Paper Mario and Kirby and the Rainbow Curse.   
 
